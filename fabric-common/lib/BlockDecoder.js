@@ -1121,7 +1121,8 @@ function decodeConfigPolicy(configPolicyProto) {
 				config_policy.policy.value = decodeImplicitMetaPolicy(configPolicyProto.policy.value);
 				break;
 			default:
-				throw new Error('Unknown Policy type');
+				logger.warn(`Unknown Policy type - ${configPolicyProto.policy.type}`);
+				break;
 		}
 	}
 

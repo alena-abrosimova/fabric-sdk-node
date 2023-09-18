@@ -1,6 +1,6 @@
 {
-	"name": "fabric-common",
-	"version": "2.2.6",
+	"name": "fabric-common-bft",
+	"version": "2.2.19",
 	"description": "This package encapsulates the common code used by the `fabric-ca-client`, `fabric-network` packages.",
 	"keywords": [
 		"blockchain",
@@ -9,7 +9,7 @@
 	"main": "index.js",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/hyperledger/fabric-sdk-node"
+		"url": "https://github.com/alena-abrosimova/fabric-sdk-node"
 	},
 	"homepage": "https://www.hyperledger.org/projects/fabric",
 	"author": {

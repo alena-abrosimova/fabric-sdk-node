@@ -1,15 +1,15 @@
 {
-  "name": "fabric-network",
+  "name": "fabric-network-bft",
   "description": "SDK for writing node.js applications to interact with Hyperledger Fabric. This package encapsulates the APIs to connect to a Fabric network, submit transactions and perform queries against the ledger.",
   "keywords": [
     "hyperledger",
     "blockchain"
   ],
-  "version": "2.2.6",
+  "version": "2.2.19",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hyperledger/fabric-sdk-node"
+    "url": "https://github.com/alena-abrosimova/fabric-sdk-node"
   },
   "homepage": "https://www.hyperledger.org/projects/fabric",
   "author": {
@@ -24,7 +24,7 @@
   },
   "types": "./types/index.d.ts",
   "dependencies": {
-    "fabric-common": "file:../fabric-common",
+    "fabric-common-bft": "file:../fabric-common",
     "fabric-protos": "file:../fabric-protos",
     "long": "^5.2.3",
     "nano": "^9.0.5"

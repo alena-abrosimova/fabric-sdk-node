@@ -5,7 +5,7 @@
 */
 
 import * as fs from 'fs';
-import {Utils, Client, ConnectOptions} from 'fabric-common';
+import {Utils, Client, ConnectOptions} from 'bft-fabric-common';
 
 const logger = Utils.getLogger('NetworkConfig');
 

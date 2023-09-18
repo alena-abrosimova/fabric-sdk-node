@@ -1,5 +1,5 @@
 {
-	"name": "fabric-common-bft",
+	"name": "bft-fabric-common",
 	"version": "2.2.19",
 	"description": "This package encapsulates the common code used by the `fabric-ca-client`, `fabric-network` packages.",
 	"keywords": [
@@ -26,7 +26,7 @@
 	"dependencies": {
 		"callsite": "^1.0.0",
 		"elliptic": "^6.5.4",
-		"fabric-protos": "file:../fabric-protos",
+		"fabric-protos": "^2.2.19",
 		"js-sha3": "^0.8.0",
 		"jsrsasign": "^10.5.25",
 		"long": "^5.2.3",

@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import {EventInfo, PrivateData} from 'fabric-common';
+import {EventInfo, PrivateData} from 'bft-fabric-common';
 import * as fabproto6 from 'fabric-protos';
 
 import {BlockEvent, TransactionEvent} from '../../events';

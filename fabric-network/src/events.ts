@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import {BlockType, Endorser} from 'fabric-common';
+import {BlockType, Endorser} from 'bft-fabric-common';
 import * as fabproto6 from 'fabric-protos';
 import {Checkpointer} from './checkpointer';
 import Long = require('long');

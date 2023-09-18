@@ -16,7 +16,7 @@ import {
 	EventListener,
 	EventService,
 	EventCallback
-} from 'fabric-common';
+} from 'bft-fabric-common';
 
 import * as Logger from '../../logger';
 import {newCommitEvent} from './commiteventfactory';

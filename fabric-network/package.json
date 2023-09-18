@@ -1,5 +1,5 @@
 {
-  "name": "fabric-network-bft",
+  "name": "bft-fabric-network",
   "description": "SDK for writing node.js applications to interact with Hyperledger Fabric. This package encapsulates the APIs to connect to a Fabric network, submit transactions and perform queries against the ledger.",
   "keywords": [
     "hyperledger",
@@ -17,15 +17,16 @@
     "email": "fabric@lists.hyperledger.org"
   },
   "scripts": {
-    "test": "nyc mocha --recursive  -t 10000"
+    "test": "nyc mocha --recursive  -t 10000",
+    "build": "(rm -rf lib || npx rimraf lib) && tsc -p tsconfig.json"
   },
   "engines": {
     "node": ">=10.13.0"
   },
   "types": "./types/index.d.ts",
   "dependencies": {
-    "fabric-common-bft": "file:../fabric-common",
-    "fabric-protos": "file:../fabric-protos",
+    "bft-fabric-common": "^2.2.19",
+    "fabric-protos": "^2.2.19",
     "long": "^5.2.3",
     "nano": "^9.0.5"
   },

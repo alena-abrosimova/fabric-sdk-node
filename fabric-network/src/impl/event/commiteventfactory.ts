@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import {Endorser, EventInfo} from 'fabric-common';
+import {Endorser, EventInfo} from 'bft-fabric-common';
 import {CommitEvent} from '../../events';
 import {cachedResult} from '../gatewayutils';
 import {newFilteredBlockEvent} from './filteredblockeventfactory';
@@ -31,6 +31,7 @@ export function newCommitEvent(peer: Endorser, eventInfo: EventInfo): CommitEven
 		peer,
 		transactionId,
 		status: eventInfo.status,
+		// @ts-ignore
 		get transactionData() {
 			return getTransactionEvent().transactionData;
 		},

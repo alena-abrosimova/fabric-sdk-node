@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import {Query as CommonQuery, Endorser, EndorsementResponse} from 'fabric-common';
+import {Query as CommonQuery, Endorser, EndorsementResponse} from 'bft-fabric-common';
 import {DefaultQueryHandlerOptions} from '../../gateway';
 import {asBuffer, getTransactionResponse} from '../gatewayutils';
 

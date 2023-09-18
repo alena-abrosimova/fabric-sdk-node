@@ -11,7 +11,7 @@ import {Wallet} from './impl/wallet/wallet';
 import {IdentityProvider} from './impl/wallet/identityprovider';
 import {TxEventHandlerFactory} from './impl/event/transactioneventhandler';
 import {QueryHandlerFactory} from './impl/query/queryhandler';
-import {Client, IdentityContext} from 'fabric-common';
+import {Client, IdentityContext} from 'bft-fabric-common';
 import * as EventStrategies from './impl/event/defaulteventhandlerstrategies';
 import * as QueryStrategies from './impl/query/defaultqueryhandlerstrategies';
 import * as IdentityProviderRegistry from './impl/wallet/identityproviderregistry';

@@ -13,7 +13,7 @@ import {
 	IdentityContext,
 	StartRequestOptions,
 	Eventer
-} from 'fabric-common';
+} from 'bft-fabric-common';
 import * as Logger from '../../logger';
 const logger = Logger.getLogger('EventSourceManager');
 

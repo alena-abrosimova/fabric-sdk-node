@@ -8,7 +8,7 @@ import {AllForTxStrategy} from './allfortxstrategy';
 import {AnyForTxStrategy} from './anyfortxstrategy';
 import {TxEventHandlerFactory, TransactionEventHandler, TxEventHandler} from './transactioneventhandler';
 import {Network} from '../../network';
-import {Endorser} from 'fabric-common';
+import {Endorser} from 'bft-fabric-common';
 
 function getOrganizationPeers(network: Network): Endorser[] {
 	const mspId = network.getGateway().getIdentity().mspId;

@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import {Endorser} from 'fabric-common';
+import {Endorser} from 'bft-fabric-common';
 
 import * as Logger from '../../logger';
 const logger = Logger.getLogger('TransactionEventStrategy');

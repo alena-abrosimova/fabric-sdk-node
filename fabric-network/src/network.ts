@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import {Channel, DiscoveryService, Endorser} from 'fabric-common';
+import {Channel, DiscoveryService, Endorser} from 'bft-fabric-common';
 import {Contract, ContractImpl} from './contract';
 import {BlockListener, CommitListener, EventType, ListenerOptions} from './events';
 import {Gateway, DiscoveryOptions} from './gateway';

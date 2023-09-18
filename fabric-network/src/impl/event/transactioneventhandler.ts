@@ -7,7 +7,7 @@
 import {TimeoutError} from '../../errors/timeouterror';
 import {TransactionEventStrategy} from './transactioneventstrategy';
 import {Network} from '../../network';
-import {Endorser} from 'fabric-common';
+import {Endorser} from 'bft-fabric-common';
 import {CommitError, CommitEvent, CommitListener} from '../../events';
 import {TransactionError} from '../../errors/transactionerror';
 import * as Logger from '../../logger';

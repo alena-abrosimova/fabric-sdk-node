@@ -8,7 +8,7 @@ import {SingleQueryHandler} from './singlequeryhandler';
 import {RoundRobinQueryHandler} from './roundrobinqueryhandler';
 import {Network} from '../../network';
 import {QueryHandlerFactory} from './queryhandler';
-import {Endorser} from 'fabric-common';
+import {Endorser} from 'bft-fabric-common';
 
 function getOrganizationPeers(network: Network) {
 	const mspId = network.getGateway().getIdentity().mspId;

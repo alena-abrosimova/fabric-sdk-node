@@ -8,7 +8,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
 
-import {BuildProposalRequest, CommitSendRequest, EndorsementResponse, Endorser, IdentityContext, ProposalResponse, SendProposalRequest} from 'fabric-common';
+import {BuildProposalRequest, CommitSendRequest, EndorsementResponse, Endorser, IdentityContext, ProposalResponse, SendProposalRequest} from 'bft-fabric-common';
 import * as util from 'util';
 import {ContractImpl} from './contract';
 import {ConnectedGatewayOptions} from './gateway';

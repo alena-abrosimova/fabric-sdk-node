@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import {ICryptoSuite, ICryptoKey, User} from 'fabric-common';
+import {ICryptoSuite, ICryptoKey, User} from 'bft-fabric-common';
 
 import {Identity} from './identity';
 import {IdentityData} from './identitydata';

@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import {EndorsementResponse} from 'fabric-common';
+import {EndorsementResponse} from 'bft-fabric-common';
 import {protos} from 'fabric-protos';
 
 /**

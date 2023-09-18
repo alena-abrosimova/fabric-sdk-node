@@ -8,7 +8,7 @@ import {FabricError} from '../../errors/fabricerror';
 import {QueryHandler} from './queryhandler';
 import {Query} from './query';
 
-import {Endorser} from 'fabric-common';
+import {Endorser} from 'bft-fabric-common';
 
 import * as util from 'util';
 

@@ -12,7 +12,7 @@ const logger = Logger.getLogger('Contract');
 import * as util from 'util';
 import {NetworkImpl} from './network';
 import {ContractListener, ListenerOptions} from './events';
-import {DiscoveryService, DiscoveryHandler, Discoverer} from 'fabric-common';
+import {DiscoveryService, DiscoveryHandler, Discoverer} from 'bft-fabric-common';
 import {Gateway} from './gateway';
 import {withTimeout} from './impl/gatewayutils';
 

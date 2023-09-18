@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import {EventCallback, EventInfo, EventListener, EventRegistrationOptions, EventService, StartRequestOptions} from 'fabric-common';
+import {EventCallback, EventInfo, EventListener, EventRegistrationOptions, EventService, StartRequestOptions} from 'bft-fabric-common';
 import {BlockEvent, BlockListener, EventType, ListenerOptions} from '../../events';
 import * as Logger from '../../logger';
 import * as GatewayUtils from '../gatewayutils';
